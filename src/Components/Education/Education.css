@@ -1,0 +1,53 @@
+/* Education.css */
+.education{
+    text-align: center;
+    font-size: 2.3rem;
+}
+.education-container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .education-data {
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: var(--mb-4);
+    box-shadow: 0 4px 25px rgba(248, 251, 252, 0.15);
+    transition: 1s ease;
+    border:  2px solid white;
+  }
+  
+  .education-name {
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Increase the font size here */
+    cursor: pointer;
+  }
+  
+  .education-platform {
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; /* Increase the font size here */
+    cursor: pointer;
+  }
+  
+  .education-duration {
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px; /* Increase the font size here */
+    cursor: pointer;
+  }
+  
+  .education-data:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
+  
