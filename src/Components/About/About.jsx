@@ -1,6 +1,5 @@
 import "./About.css";
 import profile_img from "../../assets/pic.jpg";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const About = () => {
   return (
@@ -23,13 +22,14 @@ const About = () => {
           </AnchorLink>
         </div> */}
         <div className="hero-resume">
-          <AnchorLink
+          <a
             className="anchor-link"
-            offset={50}
-            href="https://www.google.com/"
+            href="https://drive.google.com/file/d/1vTM2Hy9Iy2EPy-c3ckKAXthybLgFam8A/view"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
-          </AnchorLink>
+          </a>
         </div>
       </div>
     </div>
