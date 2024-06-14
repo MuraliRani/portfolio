@@ -1,4 +1,4 @@
-.about{
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,119 +7,82 @@
     margin: 70px 10%;
 }
 
-.about-sections{
+.about-sections {
     display: flex;
     gap: 60px;
 }
-.about-left img{
-    width: 300px;
-    border-radius: 10px;
-}
-.about-right{
+
+.about-right {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.about-para{
+.about-skills {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 15px;
-    font-size: 18px;
-    font-weight: 500;
+    justify-content: center;
+    overflow: hidden; /* Add overflow hidden */
 }
-.about-skills{
+
+.about-skill {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(267deg, #d720ce 0.36%, #5576bd 102.06%);
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.about-skill{
-    display: flex;
-    gap: 20px;
     align-items: center;
-    transition: 0.3s;
-}
-.about-skill p{
-    min-width: 130px;
-    font-size: 20px;
-    font-weight: 500;
-}
-.about-skill hr{
-    outline: none;
-    border: none;
-    width: 50%;
-    height: 8px;
-    border-radius: 50px;
-    /* background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%); */
-    background: linear-gradient(267deg, #d45656 0.36%, #23dee1 102.06%);
-}
-.about-achievements{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 50px;
-}
-.about-achievement{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    transition: 0.5s;
-}
-.about-achievement h1{
-    font-size: 40px;
-    font-weight: 700;
-    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.about-achievement p{
-    font-size: 18px;
-    font-weight: 500;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin: 0 10px;
+    animation: scroll 10s linear infinite; /* Adjust the animation speed here */
+    position: relative; /* Add position relative */
+    overflow: hidden; /* Add overflow hidden to hide the part of the skill that goes outside */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Add transition */
 }
 .about-skill:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
+    transform: scale(1.1);
+    transition: 1s ease;
 }
-.about-achievement:hover{
-    transform: scale(1.12);
-    transition: 0.5s;
+@keyframes scroll {
+    10% {
+        transform: translateX(100%);
+    }
+    70%{
+        transform: translateZ(-10%);
+    }
+    100% {
+        transform: translateX(-200%); /* Adjust the distance to cover twice the width of the container */
+    }
 }
-@media(max-width:768px){
-    .about{
+
+
+
+@media (max-width: 768px) {
+    .about {
         gap: 50px;
         margin: 50px 6%;
         align-items: start;
     }
     
-    .about-sections{
+    .about-sections {
         flex-direction: column;
     }
-    .about-left{
+
+    .about-left {
         display: none;
     }
-    .about-para{
-        line-height: 25px;
-    }
-    
-    .about-skill p{
-        font-size: 16px;
-        min-width: 90px;
-    }
-    .about-skill hr{
-        height: 6px;
-    }
-    .about-achievements{
-        justify-content: space-between;
-    }
-    .about-achievement{
+
+    .about-skills {
         gap: 10px;
     }
-    .about-achievement h1{
-        font-size: 28px;
-    }
-    .about-achievement p{
-        text-align: center;
-        font-size: 12px;
+
+    .about-skill {
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
     }
 }

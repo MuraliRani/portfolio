@@ -4,7 +4,8 @@ import theme_pattern from "../../assets/theme_pattern.svg";
 import mail_icon from "../../assets/mail_icon.svg";
 import location_icon from "../../assets/location_icon.svg";
 import call_icon from "../../assets/call_icon.svg";
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -60,6 +61,24 @@ const Contact = () => {
               <img src={location_icon} alt="" />
               <p>Pilikkal Palayam,Namakkal,Tamil Nadu</p>
             </div>
+            <div>
+              <a
+                href="https://github.com/MuraliRani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub className="icon github" />
+              </a>
+            </div>
+            <div>
+          <a
+            href="https://www.linkedin.com/in/murali-r-535653297/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="icon linkedin" />
+          </a>
+        </div>
           </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">

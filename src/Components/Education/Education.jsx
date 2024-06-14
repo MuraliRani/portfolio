@@ -5,7 +5,7 @@ const Education = () => {
     <section className="education section" id="work">
       <h1 className="section-title">Education</h1>
       <br />
-      <div className="education-container bd-grid">
+      {/* <div className="education-container bd-grid">
         <div className="education-data">
           <div className="education-names">
             <span className="education-name">MERN Deeveloper</span>
@@ -16,7 +16,7 @@ const Education = () => {
             <p className="education-duration">December 2023- February 2024</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <br />
       <div className="education-container bd-grid">
         <div className="education-data">

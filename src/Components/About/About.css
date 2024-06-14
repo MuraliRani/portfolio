@@ -50,7 +50,15 @@
     background: linear-gradient(267deg, #efd409 0.36%, #dc08c0 102.06%);
     cursor: pointer;
 }
-
+.icon{
+    height: 35px;
+    width: 35px;
+}
+.icon:hover{
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 .hero-resume {
     padding: 20px 50px;
     border-radius: 50px;
@@ -74,7 +82,7 @@
 
 @media(max-width:768px) {
     .profile-img {
-        margin-top: 50px;
+        margin-top: 90px;
         width: 200px;
     }
 

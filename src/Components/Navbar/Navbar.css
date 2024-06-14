@@ -7,7 +7,7 @@
     left: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #1F0016; /* Adjust this to match your design */
+    background-color: #000000; /* Adjust this to match your design */
     border-bottom: 2px solid #fff;
     padding: 10px 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

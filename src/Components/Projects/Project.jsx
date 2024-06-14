@@ -1,13 +1,11 @@
 import "./Project.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
 import Services_Data from "../../assets/services_data";
-
+import { FaGithub } from "react-icons/fa";
 const Project = () => {
   return (
     <div id="services" className="services">
       <div className="title-box">
         <h1>Projects</h1>
-        <img src={theme_pattern} alt="" />
       </div>
       <div className="services-container">
         {Services_Data.map((service, index) => {
@@ -22,19 +20,22 @@ const Project = () => {
                   <p>{service.project_desc}</p>
                 </div>
                 <div className="project-links">
+                  <div>
+                    <a
+                      href={service.github_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub className="icon github" />
+                    </a>
+                  </div>
                   <a
-                    href="https://task-management-app-redux.netlify.app/"
+                    href={service.live_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                  >Live
-                  </a>
-                  <a
-                    href="	https://github.com/MuraliRani/Frontend.git"
-                    target="_blank"
-                    rel="noopener noreferrer" className="achor"
+                    className="achor"
                   >
-                  Github
-              
+                    Live
                   </a>
                 </div>
               </div>
