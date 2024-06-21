@@ -22,7 +22,7 @@
     line-height: 70px;
 }
 
-.hero h1 span {
+.hero h1  {
     background: linear-gradient(267deg, #d731ec 0.36%, #161876 102.06%);
     background-clip: text;
     -webkit-background-clip: text;

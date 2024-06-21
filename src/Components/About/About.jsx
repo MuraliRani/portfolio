@@ -8,7 +8,7 @@ const About = () => {
     <div id="home" className="hero">
       <img src={profile_img} alt="" className="profile-img" />
       <h1>
-        Hi👋, <span>I'm Murali R</span> <br />
+        Hi👋 <span>I'm Murali R</span> <br />
         <ReactTyped
             className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 py-4 pl-2"
             strings={[
