@@ -3,8 +3,6 @@ import Chat from "../assets/chat.png";
 import Book from "../assets/bookstore.png";
 import Blog from "../assets/Blog.png";
 
-
-
 const Services_Data = [
   {
     s_no: "01",
