@@ -1,6 +1,6 @@
 import taskImage from "../assets/TaskManagement.png";
 import Chat from "../assets/chat.png";
-import Book from "../assets/bookstore.png";
+// import Book from "../assets/bookstore.png";
 import Blog from "../assets/Blog.png";
 
 const Services_Data = [
@@ -23,17 +23,17 @@ const Services_Data = [
     github_link: "https://github.com/MuraliRani/Chat-Application.git",
     live_link: "https://mern-chat-application-frontend.netlify.app",
   },
+  // {
+  //   s_no: "03",
+  //   s_name: "Book Store Application",
+  //   s_desc:
+  //     "A full-stack application allowing users to manage book details, including author and publication year.",
+  //   img_src: Book,
+  //   github_link: "https://github.com/MuraliRani/Book-Store.git",
+  //   live_link: "https://www.linkedin.com/in/murali-r-535653297/",
+  // },
   {
     s_no: "03",
-    s_name: "Book Store Application",
-    s_desc:
-      "A full-stack application allowing users to manage book details, including author and publication year.",
-    img_src: Book,
-    github_link: "https://github.com/MuraliRani/Book-Store.git",
-    live_link: "https://www.linkedin.com/in/murali-r-535653297/",
-  },
-  {
-    s_no: "04",
     s_name: "Blog Application",
     s_desc:
       "A full-stack blog application built using the MERN stack, enabling users to create, edit, and publish blog posts seamlessly",
