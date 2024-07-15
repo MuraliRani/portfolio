@@ -29,14 +29,14 @@ const Project = () => {
                       <FaGithub className="icon github" />
                     </a>
                   </div>
-                  {/* <a
+                  { <a
                     href={service.live_link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="achor"
                   >
                     Live
-                  </a> */}
+                  </a> }
                 </div>
               </div>
             </div>

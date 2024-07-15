@@ -21,7 +21,7 @@ const Services_Data = [
       "A real-time chat application built with the MERN stack. It features instant messaging and secure end-to-end encryption for safe communication.",
     img_src: Chat,
     github_link: "https://github.com/MuraliRani/Chat-Application.git",
-    live_link: "https://chat-application-mern-stack.netlify.app/login",
+    live_link: "https://mern-chat-application-frontend.netlify.app",
   },
   {
     s_no: "03",
@@ -39,7 +39,7 @@ const Services_Data = [
       "A full-stack blog application built using the MERN stack, enabling users to create, edit, and publish blog posts seamlessly",
     img_src: Blog,
     github_link: "https://github.com/MuraliRani/Blog-Application.git",
-    live_link: "https://www.linkedin.com/in/murali-r-535653297/",
+    live_link: "https://blog-application-mern-guvi.netlify.app/",
   },
 ];
 
