@@ -1,5 +1,5 @@
 import taskImage from "../assets/TaskManagement.png";
-import Chat from "../assets/chat.png";
+import Notes from "../assets/Notes-App.png";
 // import Book from "../assets/bookstore.png";
 import Blog from "../assets/Blog.png";
 
@@ -16,12 +16,12 @@ const Services_Data = [
   },
   {
     s_no: "02",
-    s_name: "Chat Application",
+    s_name: "Notes Application",
     s_desc:
-      "A real-time chat application built with the MERN stack. It features instant messaging and secure end-to-end encryption for safe communication.",
-    img_src: Chat,
-    github_link: "https://github.com/MuraliRani/Chat-Application.git",
-    live_link: "https://mern-chat-application-frontend.netlify.app",
+      "This MERN Notes App is designed to help you manage and organize your notes efficiently.",
+    img_src: Notes,
+    github_link: "https://github.com/MuraliRani/Notes-Application-MERN-.git",
+    live_link: "https://dainty-centaur-853c24.netlify.app/",
   },
   // {
   //   s_no: "03",
