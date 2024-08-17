@@ -21,7 +21,7 @@ const Services_Data = [
       "This MERN Notes App is designed to help you manage and organize your notes efficiently.",
     img_src: Notes,
     github_link: "https://github.com/MuraliRani/Notes-Application-MERN-.git",
-    live_link: "https://dainty-centaur-853c24.netlify.app/",
+    live_link: "https://notes-application-mern-stack.netlify.app/",
   },
   // {
   //   s_no: "03",
