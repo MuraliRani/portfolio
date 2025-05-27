@@ -38,8 +38,8 @@ const Services_Data = [
     s_desc:
       "A full-stack blog application built using the MERN stack, enabling users to create, edit, and publish blog posts seamlessly",
     img_src: Blog,
-    github_link: "https://github.com/MuraliRani/Blogs.git",
-    live_link: "https://blog-application-mernstack.netlify.app",
+    github_link: "https://github.com/MuraliRani/Blog-Application-task",
+    live_link: "https://blog-application-task-frontend.onrender.com",
   },
 ];
 

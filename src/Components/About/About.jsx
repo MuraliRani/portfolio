@@ -10,23 +10,24 @@ const About = () => {
       <h1>
         Hi👋 <span>I'm Murali R</span> <br />
         <ReactTyped
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 py-4 pl-2"
-            strings={[
-              "MERN Developer",
-              "Frontend Developer",
-              "Backend Developer",
-              "Fullstack Developer",
-            ]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          />
+          className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 py-4 pl-2"
+          strings={[
+            "MERN Developer",
+            "Frontend Developer",
+            "Backend Developer",
+            "Fullstack Developer",
+          ]}
+          typeSpeed={120}
+          backSpeed={140}
+          loop
+        />
       </h1>
       <p>
-        As a MERN stack graduate, I am skilled in web development and dedicated
-        to continuous learning. I excel in creating dynamic web applications
-        using MongoDB, Express.js, React.js, and Node.js, and am committed to
-        contributing to innovative projects.
+        Detail-oriented Software Engineer with 1.6+ years of experience in
+        building high-performance web applications. Skilled in problem-solving,
+        fast learning, and team collaboration. Focused on writing clean,
+        maintainable code and driving continuous improvement. Seeking to
+        contribute to impactful, innovative projects in a full-time role.
       </p>
       <div className="hero-action">
         {/* <div className="hero-connect">
@@ -38,7 +39,6 @@ const About = () => {
           <a
             className="anchor-link"
             href="https://drive.google.com/file/d/1RCO8PRDhHv44Yt61Vt6B7p8aeI0aZyFv/view"
-            
             target="_blank"
             rel="noopener noreferrer"
           >
