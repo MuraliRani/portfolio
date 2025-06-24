@@ -39,7 +39,7 @@ const About = () => {
         <div className="hero-resume">
           <a
             className="anchor-link"
-            href="https://drive.google.com/file/d/13gs-muuxaU8SUvXQm68e-mb72FCZZF95/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tc3zmQO3ge5eqcTW4E6Wu0mSYnOQI6Ad/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
