@@ -23,11 +23,12 @@ const About = () => {
         />
       </h1>
       <p>
-        Detail-oriented Software Engineer with 1.6+ years of experience in
-        building high-performance web applications. Skilled in problem-solving,
-        fast learning, and team collaboration. Focused on writing clean,
-        maintainable code and driving continuous improvement. Seeking to
-        contribute to impactful, innovative projects in a full-time role.
+        Dynamic Full Stack Developer and Software Engineer with 2 years of
+        experience in designing and delivering scalable, high-performance web
+        applications. Adept at building end-to-end solutions, improving
+        application efficiency, and ensuring security best practices. Known for
+        strong problem- solving skills, attention to detail, and contributing
+        effectively in fast-paced, collaborative environments.
       </p>
       <div className="hero-action">
         {/* <div className="hero-connect">
