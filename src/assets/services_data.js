@@ -1,4 +1,4 @@
-import taskImage from "../assets/TaskManagement.png";
+import militaryImage from "../assets/Military.png";
 import Notes from "../assets/Notes-App.png";
 // import Book from "../assets/bookstore.png";
 import Blog from "../assets/Blog.png";
@@ -9,7 +9,7 @@ const Services_Data = [
     s_name: "Military Asset Management System",
     s_desc:
       "A full-stack MERN application designed to streamline the management of military assets across multiple bases. Features include robust role-based access control, JWT authentication, and full lifecycle tracking of assets such as vehicles, weapons, and equipment.",
-    img_src: taskImage,
+    img_src: militaryImage,
     github_link:
       "https://github.com/MuraliRani/military-asset-management.git",
     live_link: "https://military-asset-management-frontend-vs5g.onrender.com",
