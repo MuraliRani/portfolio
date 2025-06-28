@@ -6,13 +6,13 @@ import Blog from "../assets/Blog.png";
 const Services_Data = [
   {
     s_no: "01",
-    s_name: "Task Management Application",
+    s_name: "Military Asset Management System",
     s_desc:
-      "Build a task management application where users can log in, register, and add, update, and delete tasks.",
+      "A full-stack MERN application designed to streamline the management of military assets across multiple bases. Features include robust role-based access control, JWT authentication, and full lifecycle tracking of assets such as vehicles, weapons, and equipment.",
     img_src: taskImage,
     github_link:
-      "https://github.com/MuraliRani/frontend-Task-Management-Application-.git",
-    live_link: "https://task-management-application-mern.netlify.app/",
+      "https://github.com/MuraliRani/military-asset-management.git",
+    live_link: "https://military-asset-management-frontend-vs5g.onrender.com",
   },
   {
     s_no: "02",
