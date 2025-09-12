@@ -24,7 +24,7 @@ const About = () => {
       </h1>
       <p>
         Dynamic Full Stack Developer and Software Engineer with 2 years of
-        experience in designing and delivering scalable, high-performance web
+        relavent experience in designing and delivering scalable, high-performance web
         applications. Adept at building end-to-end solutions, improving
         application efficiency, and ensuring security best practices. Known for
         strong problem- solving skills, attention to detail, and contributing
@@ -39,7 +39,7 @@ const About = () => {
         <div className="hero-resume">
           <a
             className="anchor-link"
-            href="https://drive.google.com/file/d/1nBxte34YNK_8maQ_As2XFrpk80IeClwi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KpoJokiLBWOosfXqpka2kEs09L0OOvoN/view"
             target="_blank"
             rel="noopener noreferrer"
           >

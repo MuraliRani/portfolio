@@ -55,11 +55,11 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" />
-              <p>+6380527095</p>
+              <p>91+ 6380527095</p>
             </div>
             <div className="contact-detail">
               <img src={location_icon} alt="" />
-              <p>Pilikkal Palayam,Namakkal,Tamil Nadu</p>
+              <p>Chennai - Tamilnadu</p>
             </div>
             <div>
               <a
